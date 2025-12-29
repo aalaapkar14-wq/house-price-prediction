@@ -14,7 +14,7 @@ X = df.iloc[:,:-3]
 y = df.iloc[:,-1]
 
 st.sidebar.title('🏡 Select House feature')
-st.sidebar.image('https://i.pinimg.com/originals/46/cb/a9/46cba9f93a3d437db6d42f4bcd1a5f5f.gif')
+st.sidebar.image('https://media.tenor.com/qEdgwD0B308AAAAM/ahaan-panday-%E0%A4%86%E0%A4%B9%E0%A4%BE%E0%A4%A8-%E0%A4%AA%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A5%87.gif')
 all_value = []
 for i in X:
   min_value = int(X[i].min())
@@ -46,3 +46,4 @@ msg = f'''House Price is: ${round(house_price*100000,2)}'''
 st.success(msg)
 
 st.markdown('''**Design & Developed by: Aalaap kar**''')
+
